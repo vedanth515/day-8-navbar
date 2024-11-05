@@ -1,0 +1,27 @@
+/* .parentdiv{
+    display: flex;
+} */
+
+*{
+    margin: 0;
+}
+
+.parentdiv{
+    padding: 20px;
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:fixed;
+    width:100%;
+}
+.childiv{
+    display:flex;
+    gap: 75px;
+
+}
+
+/* p{
+   position:absolute;
+   top: 70px
+} */
